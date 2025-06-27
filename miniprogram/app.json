@@ -1,0 +1,126 @@
+{
+    "pages": [
+        "projects/activityrun/pages/default/index/default_index",
+        "projects/activityrun/pages/about/index/about_index",
+        "projects/activityrun/pages/search/search",
+        "projects/activityrun/pages/my/index/my_index",
+        "projects/activityrun/pages/my/reg/my_reg",
+        "projects/activityrun/pages/my/edit/my_edit",
+        "projects/activityrun/pages/my/foot/my_foot",
+        "projects/activityrun/pages/my/fav/my_fav",
+        "projects/activityrun/pages/news/index/news_index",
+        "projects/activityrun/pages/news/detail/news_detail",
+        "projects/activityrun/pages/news/cate1/news_cate1",
+        "projects/activityrun/pages/admin/news/list/admin_news_list",
+        "projects/activityrun/pages/admin/news/add/admin_news_add",
+        "projects/activityrun/pages/admin/news/edit/admin_news_edit",
+        "projects/activityrun/pages/admin/setup/about/admin_setup_about",
+        "projects/activityrun/pages/admin/setup/about_list/admin_setup_about_list",
+        "projects/activityrun/pages/admin/setup/qr/admin_setup_qr",
+        "projects/activityrun/pages/admin/index/home/admin_home",
+        "projects/activityrun/pages/admin/index/login/admin_login",
+        "projects/activityrun/pages/admin/content/admin_content",
+        "projects/activityrun/pages/admin/mgr/log/admin_log_list",
+        "projects/activityrun/pages/admin/mgr/edit/admin_mgr_edit",
+        "projects/activityrun/pages/admin/mgr/list/admin_mgr_list",
+        "projects/activityrun/pages/admin/mgr/add/admin_mgr_add",
+        "projects/activityrun/pages/admin/mgr/pwd/admin_mgr_pwd",
+        "projects/activityrun/pages/admin/user/list/admin_user_list",
+        "projects/activityrun/pages/admin/user/detail/admin_user_detail",
+        "projects/activityrun/pages/admin/user/export/admin_user_export",
+        "projects/activityrun/pages/activity/index/activity_index",
+        "projects/activityrun/pages/activity/detail/activity_detail",
+        "projects/activityrun/pages/activity/join/activity_join",
+        "projects/activityrun/pages/activity/my_join_list/activity_my_join_list",
+        "projects/activityrun/pages/activity/my_join_detail/activity_my_join_detail",
+        "projects/activityrun/pages/activity/my_join_self/activity_my_join_self",
+        "projects/activityrun/pages/activity/calendar/activity_calendar",
+        "projects/activityrun/pages/activity/join_list/activity_join_list",
+        "projects/activityrun/pages/admin/activity/join_list/admin_activity_join_list",
+        "projects/activityrun/pages/admin/activity/self/admin_activity_self",
+        "projects/activityrun/pages/admin/activity/export/admin_activity_export",
+        "projects/activityrun/pages/admin/activity/scan/admin_activity_scan",
+        "projects/activityrun/pages/admin/activity/list/admin_activity_list",
+        "projects/activityrun/pages/admin/activity/add/admin_activity_add",
+        "projects/activityrun/pages/admin/activity/edit/admin_activity_edit",
+        "projects/activityrun/pages/comment/list/comment_list",
+        "projects/activityrun/pages/comment/add/comment_add",
+        "projects/activityrun/pages/enroll/index/enroll_index",
+		"projects/activityrun/pages/enroll/detail/enroll_detail",
+		"projects/activityrun/pages/enroll/do/enroll_do",
+        "projects/activityrun/pages/enroll/my_join_list/enroll_my_join_list",
+        "projects/activityrun/pages/enroll/my_user_list/enroll_my_user_list",
+        "projects/activityrun/pages/admin/enroll/list/admin_enroll_list",
+        "projects/activityrun/pages/admin/enroll/add/admin_enroll_add",
+        "projects/activityrun/pages/admin/enroll/edit/admin_enroll_edit",
+        "projects/activityrun/pages/admin/enroll/join_list/admin_enroll_join_list",
+        "projects/activityrun/pages/admin/enroll/export/admin_enroll_export",
+        "projects/activityrun/pages/product/detail/product_detail",
+        "projects/activityrun/pages/product/index/product_index",
+        "projects/activityrun/pages/admin/product/list/admin_product_list",
+        "projects/activityrun/pages/admin/product/add/admin_product_add",
+        "projects/activityrun/pages/admin/product/edit/admin_product_edit",
+        "cmpts/public/form/form_set/field/form_set_field",
+        "cmpts/public/form/form_show/content/form_show_content",
+        "pages/test1/test1"
+    ],
+    "window": {
+        "backgroundColor": "#f1f1f1",
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#db403a",
+        "navigationBarTitleText": "跑步俱乐部小程序",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "custom": false,
+        "backgroundColor": "#FFFFFF",
+        "color": "#999999",
+        "selectedColor": "#db403a",
+        "list": [
+            {
+                "pagePath": "projects/activityrun/pages/default/index/default_index",
+                "text": "首页",
+                "iconPath": "/projects/activityrun/images/tabbar/home.png",
+                "selectedIconPath": "/projects/activityrun/images/tabbar/home_cur.png"
+            },
+            {
+                "pagePath": "projects/activityrun/pages/product/index/product_index",
+                "text": "运动常识",
+                "iconPath": "/projects/activityrun/images/tabbar/product.png",
+                "selectedIconPath": "/projects/activityrun/images/tabbar/product_cur.png"
+            },
+            {
+                "pagePath": "projects/activityrun/pages/activity/index/activity_index",
+                "text": "活动",
+                "iconPath": "/projects/activityrun/images/tabbar/enroll.png",
+                "selectedIconPath": "/projects/activityrun/images/tabbar/enroll_cur.png"
+            },
+            {
+                "pagePath": "projects/activityrun/pages/enroll/index/enroll_index",
+                "text": "打卡",
+                "iconPath": "/projects/activityrun/images/tabbar/checkin.png",
+                "selectedIconPath": "/projects/activityrun/images/tabbar/checkin_cur.png"
+            },
+            {
+                "pagePath": "projects/activityrun/pages/my/index/my_index",
+                "text": "我的",
+                "iconPath": "/projects/activityrun/images/tabbar/my.png",
+                "selectedIconPath": "/projects/activityrun/images/tabbar/my_cur.png"
+            }
+        ]
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "获取你当前位置信息用于小程序位置接口的效果展示"
+        }
+    },
+    "requiredPrivateInfos": [
+		"chooseLocation"
+	],
+    "usingComponents": {
+        "cmpt-comm-list": "/cmpts/public/list/comm_list_cmpt",
+        "cmpt-picker": "/cmpts/public/picker/picker_cmpt",
+        "cmpt-modal": "/cmpts/public/modal/modal_cmpt"
+    },
+    "sitemapLocation": "sitemap.json"
+}
